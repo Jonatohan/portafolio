@@ -1,58 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan Garibaldi- Web Developer</title>
-    <link rel="stylesheet" href="styles.css" href="script.js">
+    <title>Jonathan Garibaldi - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://kit.fontawesome.com/88c9899530.js" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".drone-button").addClass(("animated shake"), 3000);
+            $(".travel-button").addClass("animated shake");
+            $(".project-1").addClass("animated fadeIn");
+            $(".project-2").addClass("animated fadeIn");
+        });
+    </script>
+
 </head>
+
 <body>
     <header>
         <h1 class="animate___animated
-        animate_bounce animate_infinite">Jonathan Garibaldi</h1>
-        <p>Front End - Web Developer</p>
+        animate_bounce animate_infinite">__________________________Jonathan Garibaldi___________________________</h1>
+        <p class="header-title">Front End - Web Developer</p>
     </header>
+    <div class="background">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="hello">
+                <p>Hello World! <br>
+                    <br>
+                    I'm Jonathan Garibaldi, a passionate <span class="self">Self though</span> web developer <br>
+                    with experience in <span class="html">HTML</span>,<span class="css"> CSS</span>, and<span
+                        class="js"> JavaScript</span><em> Nodejs, JQuery, Bootstrap</em> <br><br>
+                    <tab>I'm focused on creating engaging and functional web experiences.</tab>
+                    vast expierence in leadership and decision making involved for many years in Aeronautincs; with now
+                    this new challenge in web develpment technology.
+                    <br>
+                    <br>
+                    <em>"Starting to do the nessecary, then the imposible, and sunddennly finding myself doing the
+                        imposible."</em>
+                </p>
+<div>
+                <div class="drone-container">
+                    <wrap><label class="drone-label">Drone Services Web Page</label>
+                        <img class="project-1" src="https://i.ibb.co/Nj3wkMW/Screenshot-2023-11-26-103016.png"
+                            alt="drone project">
+                        <button class="drone-button" id="project-1" type="button"><span>Project 1</span></button>
+                    </wrap>
+                </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="hello">
-        <p  >Hello World! <br>
-            <br>
-            I'm Jonathan Garibaldi, a passionate <span class="self">Self though</span> web developer <br>
-            with experience in <span class="html">HTML</span>,<span class="css"> CSS</span>, and<span class="js"> JavaScript. </span>
-            <tab>I'm focused on creating engaging and functional web experiences.</tab> 
-            vast expierence in leadership and decision making involved for many years in Aeronautincs; with now this new challenge in web develpment technology.
-            <br>
-            <br>
-            <em>"Starting to do the nessecary, then the imposible, and sunddennly finding myself doing the imposible."</em>
-    </p>
-    <div class="image-container">
-        <label class="drone">Drone Services Web Page</label>
-<img class="project-1" src="https://i.ibb.co/Nj3wkMW/Screenshot-2023-11-26-103016.png" alt="drone project" >
-<button id="project-1" type="button"><span>Project</span></button>
+                <div class="travel-container">
+                    <label class="travel-label">Travel Agency Web page</label>
+                    <img class="project-2"
+                        src="https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/356890058_619509406912657_7411930213879217230_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=krJfFFTHqhgAX-mKXaj&_nc_ht=scontent-atl3-2.xx&oh=00_AfCtY-llPJ0lgpRSDWipXbjjAKr0FCM0JZiRgA5IesZo5A&oe=656BD9D2"
+                        alt="travel project">
+                    <button class="travel-button" id="project-2" type="button"><span>Project 2</span></button>
+       </div>
+       
+       <div class="next-container">
+    <label class="next-label">Next Poject Web Page</label>
+            <img class="project-3" src="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="next project">
+            <button class="next-button" id="project-3" type="button"><span>Project 3</span></button>
+        
     </div>
-</div>
-    </section>
+        </section>
 
 
-
+    </div>
 
     <footer>
-        
+
         <section id="skills">
-            <h2>Skills</h2>
+            <h2 class="animate___animated
+            animate_bounce animate_infinite">Skills</h2>
             <div class="skills-container">
-                <i class="fa-brands fa-html5 fa-beat-fade fa-xl" style="color: #f9521a;"></i>
+                <i class="fa-brands fa-html5 fa-flip fa-xl" style="color: #f9521a;"></i>
                 <i class="fa-brands fa-css3-alt fa-flip fa-xl" style="color: #0d65fd;"></i>
                 <i class="fa-brands fa-js fa-spin-pulse fa-xl" style="color: #f1f505;"></i>
-        <i class="fa-brands fa-github fa-xl" style="color: #f2f8f8;"></i>
-        <i class="fa-brands fa-git fa-lg" style="color: #ffffff;"></i>
-        <p>Jonatohan@gmail.com    +1(407)496-0192 <i class="fa-brands fa-square-whatsapp fa-spin fa-lg" style="color: #0fe661;"></i></p>
-    </section>
+                <i class="fa-brands fa-github fa-xl" style="color: #f2f8f8;"></i>
+                <i class="fa-brands fa-git fa-lg" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-node-js fa-spin-pulse fa-xl" style="color: #f7f9fd;"></i>
+                <p><a href="mailto:jonatoan@gmail.com?subject="><i class="fa-regular fa-envelope fa-beat fa-xl" style="color: #ea3d2a;"></i></a>      
+                  +1(407)496-0192 <i class="fa-brands fa-square-whatsapp fa fa-lg"
+                        style="color: #0fe661;"></i></p>
+        </section>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>

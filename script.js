@@ -1,5 +1,4 @@
+  document.getElementById('project-1').addEventListener('click', function() {
 
-    document.getElementById('project-1').addEventListener('click', function() {
-
-     window.location.href = "https://tourmaline-gecko-7ff324.netlify.app/";
+     window.location.href = "https://codigo-buho.netlify.app/";
  });
